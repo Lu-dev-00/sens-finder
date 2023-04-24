@@ -47,6 +47,9 @@ export default function Home() {
                 <label htmlFor="input" className="block font-medium mb-2 text-black">
                   Enter your 360 sensitivity:
                 </label>
+                <label htmlFor="input" className="block font-light mb-2 text-red text-gray-700">
+                  The sensitiviy requied to do a full 360 in game using your entire mousepad
+                </label>
                 <input
                   id="input"
                   type="number"
